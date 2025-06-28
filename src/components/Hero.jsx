@@ -3,11 +3,11 @@ import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="hero bg-base-200 min-h-screen">
+    <div className="hero bg-base-200 min-h-[calc(100vh-65px)]">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="flex-1 flex justify-center">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+            src="/me.jpeg"
             className="max-w-sm rounded-lg shadow-2xl"
           />
         </div>
@@ -19,7 +19,7 @@ const Hero = () => {
             using MongoDB, Express.js, React, and Node.js. My expertise in these technologies allows
             me to deliver high-performance, user-friendly web solutions.
           </p>
-          <div className="py-3 flex gap-1">
+          <div className="py-3 flex gap-2">
             <button className="btn btn-circle">
               <FaGithub />
             </button>

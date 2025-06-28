@@ -3,8 +3,8 @@ import { NavLink } from "react-router";
 
 const Navbar = () => {
   return (
-    <div className="max-w-7xl mx-auto sticky top-0">
-      <div className=" navbar bg-base-100 shadow-sm rounded-b-xl">
+    <div className=" bg-base-100 shadow-md sticky top-0 z-10">
+      <div className="navbar max-w-7xl mx-auto">
         <div className="navbar-start">
           <h2 className="text-xl font-light ml-2 cursor-pointer">/toimurhasan</h2>
         </div>
