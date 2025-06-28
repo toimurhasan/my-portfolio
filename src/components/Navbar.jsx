@@ -3,8 +3,8 @@ import { NavLink } from "react-router";
 
 const Navbar = () => {
   return (
-    <nav className="max-w-7xl mx-auto sticky top-0">
-      <div className="absolute navbar bg-base-100 shadow-sm rounded-b-xl">
+    <div className="max-w-7xl mx-auto sticky top-0">
+      <div className=" navbar bg-base-100 shadow-sm rounded-b-xl">
         <div className="navbar-start">
           <h2 className="text-xl font-light ml-2 cursor-pointer">/toimurhasan</h2>
         </div>
@@ -34,7 +34,7 @@ const Navbar = () => {
           <a className="btn">Resume</a>
         </div>
       </div>
-    </nav>
+    </div>
   );
 };
 

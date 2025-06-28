@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -11,12 +12,25 @@ const Hero = () => {
           />
         </div>
         <div className="flex-1">
-          <h1 className="text-5xl font-bold">Box Office News!</h1>
-          <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-            exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+          <h1 className="text-5xl font-light">Toimur Hasan</h1>
+          <h4 className="py-1">MERN Stack Devloper</h4>
+          <p className="pt-6">
+            As a MERN stack developer, I specialize in building full-stack JavaScript applications
+            using MongoDB, Express.js, React, and Node.js. My expertise in these technologies allows
+            me to deliver high-performance, user-friendly web solutions.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <div className="py-3 flex gap-1">
+            <button className="btn btn-circle">
+              <FaGithub />
+            </button>
+            <button className="btn btn-circle">
+              <FaLinkedinIn />
+            </button>
+            <button className="btn btn-circle">
+              <FaFacebookF />
+            </button>
+          </div>
+          <button className="btn btn-primary">Resume</button>
         </div>
       </div>
     </div>
