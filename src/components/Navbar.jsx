@@ -14,7 +14,7 @@ const Navbar = () => {
               <NavLink>About</NavLink>
             </li>
             <li>
-              <NavLink>Skills</NavLink>
+              <NavLink>Technologies</NavLink>
             </li>
             <li>
               <NavLink>Education</NavLink>

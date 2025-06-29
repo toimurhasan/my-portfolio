@@ -11,11 +11,11 @@ const Hero = () => {
         </div>
         <div className="flex-1">
           <h1 className="text-5xl font-light">Toimur Hasan</h1>
-          <h4 className="py-1">MERN Stack Devloper</h4>
+          <h4 className="py-1">Frontend-Heavy MERN Stack Developer</h4>
           <p className="pt-6">
-            As a MERN stack developer, I specialize in building full-stack JavaScript applications
-            using MongoDB, Express.js, React, and Node.js. My expertise in these technologies allows
-            me to deliver high-performance, user-friendly web solutions.
+            I build clean, scalable web applications using modern technologies like React, Node.js,
+            and MongoDB—focusing on maintainable code, intuitive interfaces, and thoughtful system
+            design to solve real-world problems.
           </p>
           <div className="py-3 flex gap-2">
             <Link to={"https://github.com/toimurhasan"} target="_blank" className="btn btn-circle">

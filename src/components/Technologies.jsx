@@ -15,7 +15,7 @@ const Technologies = () => {
   return (
     <div className="bg-base-200 pb-10">
       <h3 className="text-center py-6 text-2xl font-light">Technogies</h3>
-      <div className="flex gap-4 justify-center flex-wrap max-w-2xl mx-auto">
+      <div className="flex gap-1 sm:gap-3 justify-center flex-wrap max-w-2xl mx-auto">
         <div className="border p-3 rounded-2xl">
           <FaHtml5 size={40} />
         </div>
