@@ -17,7 +17,7 @@ const Navbar = () => {
               <NavLink>Technologies</NavLink>
             </li>
             <li>
-              <NavLink>Education</NavLink>
+              <NavLink>Academics</NavLink>
             </li>
             <li>
               <NavLink>Experience</NavLink>

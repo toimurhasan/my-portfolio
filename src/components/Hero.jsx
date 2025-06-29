@@ -4,7 +4,7 @@ import { Link } from "react-router";
 
 const Hero = () => {
   return (
-    <div className="hero bg-base-200 sm:min-h-[calc(100vh-65px)]">
+    <div className="hero sm:min-h-[calc(100vh-65px)]">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="flex-1 flex justify-center">
           <img src="/me.jpeg" className=" sm:max-w-md rounded-lg shadow-2xl" />

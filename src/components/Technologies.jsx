@@ -13,50 +13,52 @@ import {
 
 const Technologies = () => {
   return (
-    <div className="bg-base-200 pb-10">
-      <h3 className="text-center py-6 text-2xl font-light">Technogies</h3>
-      <div className="flex gap-1 sm:gap-3 justify-center flex-wrap max-w-2xl mx-auto">
+    <div className="pb-10 px-4">
+      <h3 className="text-center py-6 text-2xl font-light">
+        Technogies <span className="text-primary">I Use</span>
+      </h3>
+      <div className="flex gap-1 sm:gap-2 justify-center flex-wrap max-w-2xl mx-auto text-4xl">
         <div className="border p-3 rounded-2xl">
-          <FaHtml5 size={40} />
+          <FaHtml5 />
         </div>
         <div className="border p-3 rounded-2xl">
-          <FaCss3 size={40} />
+          <FaCss3 />
         </div>
         <div className="border p-3 rounded-2xl">
-          <FaBootstrap size={40} />
+          <FaBootstrap />
         </div>
         <div className="border p-3 rounded-2xl">
-          <SiTailwindcss size={40} />
+          <SiTailwindcss />
         </div>
         <div className="border p-3 rounded-2xl">
-          <IoLogoJavascript size={40} />{" "}
+          <IoLogoJavascript />{" "}
         </div>
         <div className="border p-3 rounded-2xl">
-          <FaReact size={40} />
+          <FaReact />
         </div>
         <div className="border p-3 rounded-2xl">
-          <SiReactrouter size={40} />
+          <SiReactrouter />
         </div>
         <div className="border p-3 rounded-2xl">
-          <SiAxios size={40} />
+          <SiAxios />
         </div>
         <div className="border p-3 rounded-2xl">
-          <SiFirebase size={40} />
+          <SiFirebase />
         </div>
         <div className="border p-3 rounded-2xl">
-          <FaNodeJs size={40} />
+          <FaNodeJs />
         </div>
         <div className="border p-3 rounded-2xl">
-          <SiExpress size={40} />
+          <SiExpress />
         </div>
         <div className="border p-3 rounded-2xl">
-          <SiJsonwebtokens size={40} />
+          <SiJsonwebtokens />
         </div>
         <div className="border p-3 rounded-2xl">
-          <SiMongodb size={40} />
+          <SiMongodb />
         </div>
         <div className="border p-3 rounded-2xl">
-          <FaGithub size={40} />
+          <FaGithub />
         </div>
       </div>
     </div>
