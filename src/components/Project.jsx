@@ -2,9 +2,13 @@ import React from "react";
 
 const Project = () => {
   return (
-    <div className="flex gap-8">
-      <img src="/peersolve.png" alt="Project One" className="max-w-md rounded-lg shadow-2xl" />
-      <div className="space-y-2">
+    <div className="flex flex-col items-center lg:flex-row  gap-8">
+      <img
+        src="/peersolve.png"
+        alt="Project One"
+        className="md:max-w-lg max-w-md lg:max-w-md rounded-lg shadow-2xl object-cover"
+      />
+      <div className="space-y-2 text-center lg:text-start">
         <h3 className="text-2xl font-light ">PeerSolve — Your Digital Study Circle</h3>
         <p>
           PeerSolve is a collaborative web application designed to enhance group study experiences.
