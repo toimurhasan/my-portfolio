@@ -10,15 +10,20 @@ const About = () => {
         <h3 className="text-center py-6 text-2xl font-light">
           About <span className="text-primary">Me</span>
         </h3>
-        <div className="mx-auto">
+        <div className="mx-auto space-y-3">
           <p className="text-justify">
-            While studying English Literature, I discovered an unexpected passion for building
-            systems. What began as curiosity soon turned into a deep dive into web development. The
-            logic of code, the creativity of interfaces, and the satisfaction of solving real
-            problems — it all clicked. <br /> <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolore, odit
-            perspiciatis quaerat eos rem distinctio labore minus, vel dignissimos veritatis, optio
-            nam sint laboriosam temporibus quibusdam deleniti enim at.
+            I'm a dedicated and versatile web developer with experience in creating efficient,
+            scalable, and visually appealing web applications. My skill set includes front-end
+            development using HTML, CSS, JavaScript, and frameworks like React, as well as back-end
+            development with Node.js, Express, and MongoDB.
+          </p>
+          <p className="text-justify">
+            I’m comfortable working across the full stack and thrive in collaborative environments
+            where I can contribute to clean, maintainable code and user-centric design. I enjoy
+            staying up-to-date with the latest web technologies and trends, and I'm always looking
+            for ways to enhance user experience and performance. Whether it's building something
+            from scratch or optimizing an existing product, I'm passionate about turning ideas into
+            reality on the web.
           </p>
         </div>
       </div>

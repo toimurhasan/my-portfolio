@@ -6,7 +6,7 @@ const Project = () => {
       <img
         src="/peersolve.png"
         alt="Project One"
-        className="md:max-w-lg max-w-md lg:max-w-md rounded-lg shadow-2xl object-cover"
+        className="md:max-w-lg lg:max-w-md rounded-lg shadow-2xl object-cover"
       />
       <div className="space-y-2 text-center lg:text-start">
         <h3 className="text-2xl font-light ">PeerSolve — Your Digital Study Circle</h3>
@@ -16,7 +16,7 @@ const Project = () => {
           inclusive academic environment where users can assign, complete, and evaluate each other’s
           work.
         </p>
-        <div className="space-x-2">
+        <div className="flex gap-2 flex-wrap justify-center sm:justify-start">
           <div className="badge badge-soft ">Tailwind</div>
           <div className="badge badge-soft ">React.js</div>
           <div className="badge badge-soft ">Express</div>
