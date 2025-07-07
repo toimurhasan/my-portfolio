@@ -31,7 +31,9 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Resume</a>
+          <a href="/resume.pdf" target="_blank" className="btn">
+            Resume
+          </a>
         </div>
       </div>
     </div>

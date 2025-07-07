@@ -32,7 +32,9 @@ const Hero = () => {
               <FaFacebookF />
             </Link>
           </div>
-          <button className="btn btn-primary">Resume</button>
+          <Link to={"/resume.pdf"} target="_blank" className="btn btn-primary">
+            Resume
+          </Link>
         </div>
       </div>
     </div>
