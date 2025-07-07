@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="flex-1 flex justify-center">
           <img src="/me.jpeg" className=" sm:max-w-md rounded-lg shadow-2xl" />
         </div>
-        <div className="flex-1">
+        <div className="flex-1 sm:text-center lg:text-start">
           <h1 className="text-5xl font-light">Toimur Hasan</h1>
           <h4 className="py-1">Frontend-Heavy MERN Stack Developer</h4>
           <p className="pt-6">
@@ -17,7 +17,7 @@ const Hero = () => {
             and MongoDB—focusing on maintainable code, intuitive interfaces, and thoughtful system
             design to solve real-world problems.
           </p>
-          <div className="py-3 flex gap-2">
+          <div className="py-3 flex gap-2 sm:justify-center lg:justify-start">
             <Link to={"https://github.com/toimurhasan"} target="_blank" className="btn btn-circle">
               <FaGithub />
             </Link>

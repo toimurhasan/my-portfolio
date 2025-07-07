@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Project = () => {
   return (
@@ -16,15 +17,23 @@ const Project = () => {
           inclusive academic environment where users can assign, complete, and evaluate each other’s
           work.
         </p>
-        <div className="flex gap-2 flex-wrap justify-center sm:justify-start">
+        <div className="flex gap-2 flex-wrap justify-center lg:justify-start">
           <div className="badge badge-soft ">Tailwind</div>
           <div className="badge badge-soft ">React.js</div>
           <div className="badge badge-soft ">Express</div>
           <div className="badge badge-soft ">MongoDB</div>
         </div>
         <div className="mt-4 space-x-2">
-          <button className="btn">Live Link</button>
-          <button className="btn">View Code</button>
+          <Link to={"https://peersolve.web.app/"} target="_blank" className="btn">
+            Live Link
+          </Link>
+          <Link
+            to={"https://github.com/toimurhasan/peersolve-client/"}
+            target="_blank"
+            className="btn"
+          >
+            View Code
+          </Link>
         </div>
       </div>
     </div>
