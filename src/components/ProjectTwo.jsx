@@ -25,11 +25,11 @@ const ProjectTwo = () => {
           <div className="badge badge-soft ">MongoDB</div>
         </div>
         <div className="mt-4 space-x-2">
-          <Link to={"https://peersolve.web.app/"} target="_blank" className="btn">
+          <Link to={"https://hobbyhub-tamim.web.app/"} target="_blank" className="btn">
             Live Link
           </Link>
           <Link
-            to={"https://github.com/toimurhasan/peersolve-client/"}
+            to={"https://github.com/toimurhasan/hobbyhub-client"}
             target="_blank"
             className="btn"
           >
