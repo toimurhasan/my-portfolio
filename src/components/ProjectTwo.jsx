@@ -5,22 +5,23 @@ const ProjectTwo = () => {
   return (
     <div className="flex flex-col items-center lg:flex-row-reverse  gap-8">
       <img
-        src="/peersolve.png"
-        alt="Project One"
+        src="/hobbyhub.png"
+        alt="Project Two"
         className="md:max-w-lg lg:max-w-md rounded-lg shadow-2xl object-cover"
       />
       <div className="space-y-2 text-center lg:text-start">
-        <h3 className="text-2xl font-light ">PeerSolve — Your Digital Study Circle</h3>
+        <h3 className="text-2xl font-light ">HobbyHub — Social Platform for Hobbyists</h3>
         <p>
-          PeerSolve is a collaborative web application designed to enhance group study experiences.
-          Every registered user is automatically connected as a peer, creating a friendly and
-          inclusive academic environment where users can assign, complete, and evaluate each other’s
-          work.
+          HobbyHub is a full-stack social platform designed for people to connect through shared
+          hobbies. A User can create, manage, and join hobby-based groups to build communities
+          around their passions. Find your Hobby Group faster than ever, thanks to HobbyHub’s
+          beautiful and responsive interface.
         </p>
         <div className="flex gap-2 flex-wrap justify-center lg:justify-start">
-          <div className="badge badge-soft ">Tailwind</div>
+          <div className="badge badge-soft ">DaisyUI</div>
           <div className="badge badge-soft ">React.js</div>
-          <div className="badge badge-soft ">Express</div>
+          <div className="badge badge-soft ">Node.js</div>
+          <div className="badge badge-soft ">Firebase</div>
           <div className="badge badge-soft ">MongoDB</div>
         </div>
         <div className="mt-4 space-x-2">
