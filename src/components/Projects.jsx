@@ -1,5 +1,6 @@
 import React from "react";
-import Project from "./Project";
+import ProjectOne from "./ProjectOne";
+import ProjectTwo from "./ProjectTwo";
 
 const Projects = () => {
   return (
@@ -7,7 +8,10 @@ const Projects = () => {
       <h3 className="text-center py-6 text-2xl font-light mb-4">
         Projects <span className="text-primary">I Made</span>
       </h3>
-      <Project></Project>
+      <div className="space-y-8">
+        <ProjectOne></ProjectOne>
+        <ProjectTwo></ProjectTwo>
+      </div>
     </div>
   );
 };

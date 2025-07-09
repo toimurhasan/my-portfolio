@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router";
 
-const Project = () => {
+const ProjectTwo = () => {
   return (
-    <div className="flex flex-col items-center lg:flex-row  gap-8">
+    <div className="flex flex-col items-center lg:flex-row-reverse  gap-8">
       <img
         src="/peersolve.png"
         alt="Project One"
@@ -40,4 +40,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default ProjectTwo;
