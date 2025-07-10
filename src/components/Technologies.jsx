@@ -5,14 +5,11 @@ import {
   FaFigma,
   FaGithub,
   FaHtml5,
-  FaNode,
   FaNodeJs,
   FaReact,
   FaSass,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { IoLogoVercel } from "react-icons/io5";
-import { RiNextjsLine } from "react-icons/ri";
 import {
   SiAxios,
   SiExpress,
@@ -26,7 +23,7 @@ import {
 
 const Technologies = () => {
   return (
-    <div className="pb-10 px-4">
+    <section id="technologies" className="pb-10 px-4">
       <h3 className="text-center py-6 text-2xl font-light">
         Technogies <span className="text-primary">I Use</span>
       </h3>
@@ -83,7 +80,7 @@ const Technologies = () => {
           <SiNetlify />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

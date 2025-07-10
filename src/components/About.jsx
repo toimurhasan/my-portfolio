@@ -2,8 +2,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="mt-10 lg:mt-0 pb-10 flex items-center justify-between max-w-7xl mx-auto px-4 flex-col lg:flex-row">
-      <div className="flex-1 justify-center">
+    <section className="mt-10 lg:mt-0 pb-10 flex items-center justify-between max-w-7xl mx-auto px-4 flex-col lg:flex-row">
+      <div id="about" className="flex-1 justify-center">
         <img
           src="/about-me.jpeg"
           className="lg:max-w-lg sm:max-w-md rounded-lg shadow-2xl"
@@ -31,7 +31,7 @@ const About = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

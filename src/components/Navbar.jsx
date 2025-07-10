@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router";
 
 const Navbar = () => {
   return (
@@ -11,22 +10,46 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <NavLink>About</NavLink>
+              <span
+                onClick={() => {
+                  const element = document.getElementById("about");
+                  const yOffset = -100; // Adjust this value as needed (e.g. height of your navbar)
+                  const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+                  window.scrollTo({ top: y, behavior: "smooth" });
+                }}
+              >
+                About
+              </span>
             </li>
             <li>
-              <NavLink>Technologies</NavLink>
+              <span
+                onClick={() => {
+                  const element = document.getElementById("technologies");
+                  const yOffset = -80; // Adjust this value as needed (e.g. height of your navbar)
+                  const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+                  window.scrollTo({ top: y, behavior: "smooth" });
+                }}
+              >
+                Technologies
+              </span>
             </li>
             <li>
-              <NavLink>Academics</NavLink>
+              <span
+                onClick={() => {
+                  const element = document.getElementById("projects");
+                  const yOffset = -80; // Adjust this value as needed (e.g. height of your navbar)
+                  const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+                  window.scrollTo({ top: y, behavior: "smooth" });
+                }}
+              >
+                Projects
+              </span>
             </li>
             <li>
-              <NavLink>Experience</NavLink>
-            </li>
-            <li>
-              <NavLink>Projects</NavLink>
-            </li>
-            <li>
-              <NavLink>Contact</NavLink>
+              <span>Contact</span>
             </li>
           </ul>
         </div>

@@ -5,7 +5,7 @@ import { Link } from "react-router";
 
 const Hero = () => {
   return (
-    <div className="hero sm:min-h-[calc(100vh-65px)]">
+    <section className="hero sm:min-h-[calc(100vh-65px)]">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="flex-1 flex justify-center">
           <img src="/me.jpeg" className=" sm:max-w-md rounded-lg shadow-2xl" />
@@ -52,7 +52,7 @@ const Hero = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
