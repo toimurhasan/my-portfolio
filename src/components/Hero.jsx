@@ -1,5 +1,6 @@
 import React from "react";
-import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 import { Link } from "react-router";
 
 const Hero = () => {
@@ -18,21 +19,35 @@ const Hero = () => {
             design to solve real-world problems.
           </p>
           <div className="py-3 flex gap-2 sm:justify-center lg:justify-start">
-            <Link to={"https://github.com/toimurhasan"} target="_blank" className="btn btn-circle">
+            <Link
+              to={"https://wa.me/+8801720911179"}
+              target="_blank"
+              className="btn btn-circle text-lg"
+            >
+              <IoLogoWhatsapp />
+            </Link>
+            <Link
+              to={"https://github.com/toimurhasan"}
+              target="_blank"
+              className="btn btn-circle text-[1.01rem]"
+            >
               <FaGithub />
             </Link>
-            <button className="btn btn-circle">
-              <FaLinkedinIn />
-            </button>
             <Link
-              to={"https://web.facebook.com/toimurhasan73/"}
+              to={"https://web.facebook.com/web.developer.tamim/"}
               target="_blank"
               className="btn btn-circle"
             >
               <FaFacebookF />
             </Link>
           </div>
-          <Link to={"/resume.pdf"} target="_blank" className="btn btn-primary">
+          <Link
+            to={
+              "https://drive.google.com/file/d/1If6klhtgo2I5X_j9wMD5QDA0giGIQSnx/view?usp=drive_link"
+            }
+            target="_blank"
+            className="btn btn-primary"
+          >
             Resume
           </Link>
         </div>

@@ -31,7 +31,11 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a href="/resume.pdf" target="_blank" className="btn">
+          <a
+            href="https://drive.google.com/file/d/1If6klhtgo2I5X_j9wMD5QDA0giGIQSnx/view?usp=drive_link"
+            target="_blank"
+            className="btn"
+          >
             Resume
           </a>
         </div>
