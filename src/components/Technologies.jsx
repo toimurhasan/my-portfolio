@@ -1,12 +1,25 @@
 import React from "react";
-import { FaBootstrap, FaCss3, FaGithub, FaHtml5, FaNode, FaNodeJs, FaReact } from "react-icons/fa";
+import {
+  FaBootstrap,
+  FaCss3,
+  FaFigma,
+  FaGithub,
+  FaHtml5,
+  FaNode,
+  FaNodeJs,
+  FaReact,
+  FaSass,
+} from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
+import { IoLogoVercel } from "react-icons/io5";
+import { RiNextjsLine } from "react-icons/ri";
 import {
   SiAxios,
   SiExpress,
   SiFirebase,
   SiJsonwebtokens,
   SiMongodb,
+  SiNetlify,
   SiReactrouter,
   SiTailwindcss,
 } from "react-icons/si";
@@ -31,7 +44,7 @@ const Technologies = () => {
           <SiTailwindcss />
         </div>
         <div className="border p-3 rounded-2xl">
-          <IoLogoJavascript />{" "}
+          <IoLogoJavascript />
         </div>
         <div className="border p-3 rounded-2xl">
           <FaReact />
@@ -58,7 +71,16 @@ const Technologies = () => {
           <SiMongodb />
         </div>
         <div className="border p-3 rounded-2xl">
+          <FaSass />
+        </div>
+        <div className="border p-3 rounded-2xl">
+          <FaFigma />
+        </div>
+        <div className="border p-3 rounded-2xl">
           <FaGithub />
+        </div>
+        <div className="border p-3 rounded-2xl">
+          <SiNetlify />
         </div>
       </div>
     </div>
