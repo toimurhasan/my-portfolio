@@ -49,7 +49,17 @@ const Navbar = () => {
               </span>
             </li>
             <li>
-              <span>Contact</span>
+              <span
+                onClick={() => {
+                  const element = document.getElementById("contact");
+                  const yOffset = -80; // Adjust this value as needed (e.g. height of your navbar)
+                  const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+                  window.scrollTo({ top: y, behavior: "smooth" });
+                }}
+              >
+                Contact
+              </span>
             </li>
           </ul>
         </div>
