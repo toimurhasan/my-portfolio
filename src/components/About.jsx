@@ -6,15 +6,15 @@ const About = () => {
       <div id="about" className=" justify-center">
         <img
           src="/about-me.jpeg"
-          className="lg:max-w-lg sm:max-w-md rounded-lg shadow-2xl"
+          className="max-w-md sm:max-w-lg rounded-lg shadow-2xl"
           alt="about image"
         />
       </div>
       <div className=" lg:pl-6">
-        <h3 className="lg:text-start text-center py-6 text-2xl font-light">
+        <h3 className="py-6 text-2xl font-light">
           About <span className="text-primary">Me</span>
         </h3>
-        <div className="text-sm sm:text-base lg:text-start text-center mx-auto space-y-3">
+        <div className=" mx-auto space-y-3">
           <p>I’m an introvert, and I used to think that was a disadvantage.</p>
           <p>Until I discovered coding—where I could be my true self.</p>
           <p>Being authentic had numerous advantages.</p>
