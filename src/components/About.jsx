@@ -6,7 +6,7 @@ const About = () => {
       <div id="about" className=" justify-center">
         <img
           src="/about-me.jpeg"
-          className="max-w-md sm:max-w-lg rounded-lg shadow-2xl"
+          className="sm:max-w-md md:max-w-lg  rounded-lg shadow-2xl"
           alt="about image"
         />
       </div>
