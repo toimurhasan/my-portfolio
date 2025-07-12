@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCircle } from "react-icons/fa";
+import { FaArrowRight, FaCircle } from "react-icons/fa";
 
 const Experience = () => {
   return (
@@ -8,20 +8,27 @@ const Experience = () => {
         Experience <span className="text-primary">I Have</span>
       </h3>
       <div className="max-w-5xl mx-auto px-4">
-        <ul className="timeline text-base timeline-box max-md:timeline-compact timeline-vertical px-10 py-6">
+        <ul className="timeline text-base timeline-box max-md:timeline-compact timeline-vertical md:px-10 py-6">
           <li>
             <div className="timeline-middle">
               <FaCircle size={12} />
             </div>
-            <div className="timeline-start mb-10 md:text-end">
+            <div className="timeline-start mb-10 md:text-end space-y-2">
               <time className="font-mono italic">April, 2025</time>
               <div className="text-lg font-black">Paikari Organic Ghor</div>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos illo voluptas qui
-                quis temporibus, natus sunt eligendi! Deserunt, dolorem similique?
+              <img
+                src="/paikariorganicghor.png"
+                alt="Paikari Organic Ghor"
+                className="rounded-2xl"
+              />
+              <p className="md:pl-10">
+                Building this E-store from scratch exposed me to server management softwares like
+                cPanel, and principles behind good and bad UI design.
               </p>
-              <div className="my-1">
-                <button className="btn btn-sm">Live Site</button>
+              <div>
+                <button className="btn btn-sm">
+                  Have a Look <FaArrowRight />
+                </button>
               </div>
             </div>
             <hr className="mx-2" />
@@ -31,14 +38,19 @@ const Experience = () => {
             <div className="timeline-middle">
               <FaCircle size={12} />
             </div>
-            <div className="timeline-end md:mb-10">
+            <div className="timeline-end md:mb-10 space-y-2">
               <time className="font-mono italic">November, 2024</time>
-              <div className="text-lg font-black">Govt. Rashidozzoha Women's College</div>
+              <div className="text-lg font-black">Rashidozzoha Govt. Women's College</div>
+              <img
+                src="/rgwc.png"
+                alt="Rashidozzoha Govt. Women's College"
+                className="rounded-2xl"
+              />
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos illo voluptas qui
                 quis temporibus, natus sunt eligendi! Deserunt, dolorem similique?
               </p>
-              <div className="my-1 space-x-1">
+              <div className="space-x-2">
                 <button className="btn btn-sm">Live</button>
                 <button className="btn btn-sm">Code</button>
               </div>
@@ -50,14 +62,15 @@ const Experience = () => {
             <div className="timeline-middle">
               <FaCircle size={12} />
             </div>
-            <div className="timeline-start mb-10 md:text-end">
+            <div className="timeline-start mb-10 md:text-end space-y-2">
               <time className="font-mono italic">July, 2024</time>
               <div className="text-lg font-black">ShobShotej</div>
+              <img src="/shobshotej.png" alt="ShobShotej" className="rounded-2xl" />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aspernatur, tenetur
                 delectus quibusdam sapiente amet quaerat repudiandae alias molestias sit?
               </p>
-              <div className="my-1">
+              <div>
                 <button className="btn btn-sm">Live Site</button>
               </div>
             </div>
@@ -68,10 +81,10 @@ const Experience = () => {
             <div className="timeline-middle">
               <FaCircle size={12} />
             </div>
-            <div className="timeline-end mb-10 md:text-start">
+            <div className="timeline-end mb-10 md:text-start space-y-2">
               <time className="font-mono italic">April, 2024</time>
-              <div className="text-lg font-black">Wordpress Instructor</div>
-              
+              <div className="text-lg font-black">Web Instructor</div>
+
               <iframe
                 className="rounded-2xl"
                 src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Fweb.developer.tamim%2Fvideos%2F7563727837054855%2F&show_text=false&width=560&t=0"
