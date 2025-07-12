@@ -26,9 +26,9 @@ const Experience = () => {
                 cPanel, and principles behind good and bad UI design.
               </p>
               <div>
-                <button className="btn btn-sm">
+                <a href="https://paikariorganicghor.com/" target="_blank" className="btn btn-sm">
                   Have a Look <FaArrowRight />
-                </button>
+                </a>
               </div>
             </div>
             <hr className="mx-2" />
@@ -46,13 +46,28 @@ const Experience = () => {
                 alt="Rashidozzoha Govt. Women's College"
                 className="rounded-2xl"
               />
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos illo voluptas qui
-                quis temporibus, natus sunt eligendi! Deserunt, dolorem similique?
+              <p className="md:pr-10">
+                This was my first-ever student management project, done in collaboration with{" "}
+                <a
+                  className="link text-blue-500 hover:text-blue-600"
+                  href="https://github.com/arnobghosh"
+                  target="_blank"
+                >
+                  Arnob Ghosh
+                </a>
+                , who managed the backend.
               </p>
               <div className="space-x-2">
-                <button className="btn btn-sm">Live</button>
-                <button className="btn btn-sm">Code</button>
+                <a href="https://rgwc.edu.bd/" target="_blank" className="btn btn-sm">
+                  Live
+                </a>
+                <a
+                  href="https://github.com/toimurhasan/rwc-final"
+                  target="_blank"
+                  className="btn btn-sm"
+                >
+                  Code
+                </a>
               </div>
             </div>
             <hr className="mx-2" />
@@ -66,12 +81,14 @@ const Experience = () => {
               <time className="font-mono italic">July, 2024</time>
               <div className="text-lg font-black">ShobShotej</div>
               <img src="/shobshotej.png" alt="ShobShotej" className="rounded-2xl" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aspernatur, tenetur
-                delectus quibusdam sapiente amet quaerat repudiandae alias molestias sit?
+              <p className="md:pl-10">
+                Learned how to force WordPress Plugins to do what I wanted — even when the feature
+                didn’t exist. My first ever introduction to JavaScript.
               </p>
               <div>
-                <button className="btn btn-sm">Live Site</button>
+                <a href="https://shobshotej.com/" target="_blank" className="btn btn-sm">
+                  Explore <FaArrowRight />
+                </a>
               </div>
             </div>
             <hr className="mx-2" />
@@ -82,11 +99,11 @@ const Experience = () => {
               <FaCircle size={12} />
             </div>
             <div className="timeline-end mb-10 md:text-start space-y-2">
-              <time className="font-mono italic">April, 2024</time>
-              <div className="text-lg font-black">Web Instructor</div>
+              <time className="font-mono italic">May, 2024</time>
+              <div className="text-lg font-black">Web Development Trainer</div>
 
               <iframe
-                className="rounded-2xl"
+                className="rounded-2xl aspect-video"
                 src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Fweb.developer.tamim%2Fvideos%2F7563727837054855%2F&show_text=false&width=560&t=0"
                 width="100%"
                 height="100%"
@@ -97,9 +114,16 @@ const Experience = () => {
                 allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
                 title="Facebook Video"
               ></iframe>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aspernatur, tenetur
-                delectus quibusdam sapiente amet quaerat repudiandae alias molestias sit?
+              <p className="md:pr-10">
+                Got hired by{" "}
+                <a
+                  href="https://web.facebook.com/mindskillssirajganj"
+                  target="_blank"
+                  className="link text-blue-500 hover:text-blue-600"
+                >
+                  MindSkills
+                </a>{" "}
+                as an Instructor. Not my natural strength, but it was incredibly fun.
               </p>
             </div>
           </li>
