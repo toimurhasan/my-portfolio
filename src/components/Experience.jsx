@@ -8,7 +8,7 @@ const Experience = () => {
         Experience <span className="text-primary">I Have</span>
       </h3>
       <div className="max-w-5xl mx-auto px-4">
-        <ul className="timeline text-base timeline-box max-md:timeline-compact timeline-vertical md:px-10 py-6">
+        <ul className="timeline sm:text-base timeline-box max-md:timeline-compact timeline-vertical md:px-10 py-6">
           <li>
             <div className="timeline-middle">
               <FaCircle size={12} />
@@ -38,7 +38,7 @@ const Experience = () => {
             <div className="timeline-middle">
               <FaCircle size={12} />
             </div>
-            <div className="timeline-end md:mb-10 space-y-2">
+            <div className="timeline-end mb-10 space-y-2">
               <time className="font-mono italic">November, 2024</time>
               <div className="text-lg font-black">Rashidozzoha Govt. Women's College</div>
               <img
