@@ -51,6 +51,19 @@ const Navbar = () => {
             <li>
               <span
                 onClick={() => {
+                  const element = document.getElementById("experience");
+                  const yOffset = -80; // Adjust this value as needed (e.g. height of your navbar)
+                  const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+                  window.scrollTo({ top: y, behavior: "smooth" });
+                }}
+              >
+                Experience
+              </span>
+            </li>
+            <li>
+              <span
+                onClick={() => {
                   const element = document.getElementById("education");
                   const yOffset = -80; // Adjust this value as needed (e.g. height of your navbar)
                   const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
