@@ -12,7 +12,7 @@ const Hero = () => {
         </div>
         <div className="flex-1 sm:text-center lg:text-start">
           <h1 className="text-5xl font-light">Toimur Hasan</h1>
-          <h4 className="py-1">Frontend-Heavy MERN Stack Developer</h4>
+          <h4 className="py-1">A Tool Agnostic Full Stack Developer</h4>
           <p className="pt-6">
             I build clean, scalable web applications using modern technologies like React, Node.js,
             and MongoDB—focusing on maintainable code, intuitive interfaces, and thoughtful system

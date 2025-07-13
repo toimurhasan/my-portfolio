@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
 
-const ProjectOne = () => {
+const PeerSolve = () => {
   return (
     <div className="flex flex-col items-center lg:flex-row  gap-8">
       <img
@@ -40,4 +40,4 @@ const ProjectOne = () => {
   );
 };
 
-export default ProjectOne;
+export default PeerSolve;

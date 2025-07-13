@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
 
-const ProjectTwo = () => {
+const HobbyHub = () => {
   return (
     <div className="flex flex-col items-center lg:flex-row-reverse  gap-8">
       <img
@@ -41,4 +41,4 @@ const ProjectTwo = () => {
   );
 };
 
-export default ProjectTwo;
+export default HobbyHub;

@@ -1,6 +1,5 @@
-import React from "react";
-import ProjectOne from "./ProjectOne";
-import ProjectTwo from "./ProjectTwo";
+import PeerSolve from "./PeerSolve";
+import HobbyHub from "./HobbyHub";
 
 const Projects = () => {
   return (
@@ -9,8 +8,8 @@ const Projects = () => {
         Projects <span className="text-primary">I Made</span>
       </h3>
       <div className="space-y-8">
-        <ProjectOne></ProjectOne>
-        <ProjectTwo></ProjectTwo>
+        <PeerSolve></PeerSolve>
+        <HobbyHub></HobbyHub>
       </div>
     </section>
   );

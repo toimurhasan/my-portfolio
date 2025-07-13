@@ -21,11 +21,11 @@ import {
   SiTailwindcss,
 } from "react-icons/si";
 
-const Technologies = () => {
+const Tools = () => {
   return (
-    <section id="technologies" className="pb-10 px-4">
+    <section id="tools" className="pb-10 px-4">
       <h3 className="text-center py-6 text-2xl font-light">
-        Technogies <span className="text-primary">I Use</span>
+        Tools <span className="text-primary">I Use</span>
       </h3>
       <div className="flex gap-1 sm:gap-2 justify-center flex-wrap max-w-2xl mx-auto text-4xl">
         <div className="border p-3 rounded-2xl">
@@ -84,4 +84,4 @@ const Technologies = () => {
   );
 };
 
-export default Technologies;
+export default Tools;
