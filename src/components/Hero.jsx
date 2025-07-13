@@ -12,11 +12,12 @@ const Hero = () => {
         </div>
         <div className="flex-1 sm:text-center lg:text-start">
           <h1 className="text-5xl font-light">Toimur Hasan</h1>
-          <h4 className="py-1">A Tool Agnostic Full Stack Developer</h4>
+          <h4 className="py-1 italic">A Tool-Agnostic Full Stack Developer</h4>
           <p className="pt-6">
-            I build clean, scalable web applications using modern technologies like React, Node.js,
-            and MongoDB—focusing on maintainable code, intuitive interfaces, and thoughtful system
-            design to solve real-world problems.
+            I'm a full stack web application developer who thrives on messy, real-world challenges.
+            I don’t like to cling to any framework — I just pick the right tool for the job. I love
+            breaking chaos down into patterns and designing clean, functional systems that actually
+            solves the problem, not just look good on GitHub.
           </p>
           <div className="py-3 flex gap-2 sm:justify-center lg:justify-start">
             <Link
