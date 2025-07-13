@@ -8,8 +8,11 @@ import {
   FaNodeJs,
   FaReact,
   FaSass,
+  FaWordpress,
 } from "react-icons/fa";
+import { FaElementor } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io";
+import { RiVercelLine } from "react-icons/ri";
 import {
   SiAxios,
   SiExpress,
@@ -17,9 +20,13 @@ import {
   SiJsonwebtokens,
   SiMongodb,
   SiNetlify,
+  SiNotion,
+  SiObsidian,
   SiReactrouter,
   SiTailwindcss,
+  SiWoo,
 } from "react-icons/si";
+import { TbBrandVercel } from "react-icons/tb";
 
 const Tools = () => {
   return (
@@ -36,6 +43,9 @@ const Tools = () => {
         </div>
         <div className="border p-3 rounded-2xl">
           <FaBootstrap />
+        </div>
+        <div className="border p-3 rounded-2xl">
+          <FaSass />
         </div>
         <div className="border p-3 rounded-2xl">
           <SiTailwindcss />
@@ -68,16 +78,31 @@ const Tools = () => {
           <SiMongodb />
         </div>
         <div className="border p-3 rounded-2xl">
-          <FaSass />
-        </div>
-        <div className="border p-3 rounded-2xl">
           <FaFigma />
         </div>
         <div className="border p-3 rounded-2xl">
           <FaGithub />
         </div>
         <div className="border p-3 rounded-2xl">
+          <TbBrandVercel />
+        </div>
+        <div className="border p-3 rounded-2xl">
           <SiNetlify />
+        </div>
+        <div className="border p-3 rounded-2xl">
+          <FaWordpress />
+        </div>
+        <div className="border p-3 rounded-2xl">
+          <SiWoo />
+        </div>
+        <div className="border p-3 rounded-2xl">
+          <FaElementor />
+        </div>
+        <div className="border p-3 rounded-2xl">
+          <SiNotion />
+        </div>
+        <div className="border p-3 rounded-2xl">
+          <SiObsidian />
         </div>
       </div>
     </section>
