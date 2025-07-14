@@ -23,16 +23,23 @@ const PeerSolve = () => {
           <div className="badge badge-soft ">Express</div>
           <div className="badge badge-soft ">MongoDB</div>
         </div>
-        <div className="mt-4 space-x-2">
-          <Link to={"https://peersolve.web.app/"} target="_blank" className="btn">
-            Live Link
+        <div className="mt-4  flex gap-2 justify-center lg:justify-start">
+          <Link to={"https://peersolve.web.app/"} target="_blank" className="btn btn-primary">
+            Live Site
           </Link>
           <Link
             to={"https://github.com/toimurhasan/peersolve-client/"}
             target="_blank"
             className="btn"
           >
-            View Code
+            Client
+          </Link>
+          <Link
+            to={"https://github.com/toimurhasan/peersolve-server/"}
+            target="_blank"
+            className="btn"
+          >
+            Server
           </Link>
         </div>
       </div>
