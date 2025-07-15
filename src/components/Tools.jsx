@@ -2,32 +2,45 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import { BiLogoTypescript } from "react-icons/bi";
 import {
+  FaAngular,
+  FaAws,
   FaBootstrap,
   FaCss3,
+  FaDocker,
   FaFigma,
   FaGithub,
   FaHtml5,
+  FaLaravel,
   FaNodeJs,
+  FaPhp,
+  FaPython,
   FaReact,
   FaSass,
   FaSlack,
   FaWordpress,
 } from "react-icons/fa";
 import { FaElementor } from "react-icons/fa6";
+import { GrGraphQl } from "react-icons/gr";
 import { IoLogoJavascript } from "react-icons/io";
-import { RiNextjsFill } from "react-icons/ri";
+import { RiNextjsFill, RiVuejsLine } from "react-icons/ri";
 import {
   SiAxios,
   SiExpress,
   SiFirebase,
+  SiJest,
   SiJsonwebtokens,
   SiMongodb,
+  SiMongoose,
   SiNetlify,
   SiNotion,
   SiObsidian,
+  SiPostgresql,
+  SiPrisma,
   SiReactrouter,
+  SiRedux,
   SiTailwindcss,
   SiTypescript,
+  SiVitest,
   SiWoo,
 } from "react-icons/si";
 import { TbBrandNextjs, TbBrandVercel } from "react-icons/tb";
@@ -40,7 +53,7 @@ const Tools = () => {
         Tools <span className="text-primary">I Use</span>
       </h3>
       <Marquee
-        className=" text-3xl sm:text-4xl sm:opacity-80 "
+        className=" text-3xl sm:text-4xl opacity-90 sm:opacity-80 "
         gradient="true"
         gradientColor={"oklch(14% 0.005 285.823)"}
         speed={1}
@@ -108,7 +121,7 @@ const Tools = () => {
         </div>
       </Marquee>
       <Marquee
-        className=" text-3xl sm:text-4xl sm:opacity-80 mt-4"
+        className=" text-3xl sm:text-4xl opacity-90 sm:opacity-80 mt-4"
         gradient="true"
         direction="right"
         gradientColor={"oklch(14% 0.005 285.823)"}
@@ -116,43 +129,46 @@ const Tools = () => {
         gradientWidth={80}
       >
         <div className="border mx-1 p-3 rounded-2xl">
-          <SiReactrouter />
+          <FaPhp />
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
-          <SiAxios />
+          <FaLaravel />
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
-          <SiFirebase />
+          <FaPython />
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
-          <FaNodeJs />
+          <FaAws />
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
-          <SiExpress />
+          <SiRedux />
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
-          <SiJsonwebtokens />
+          <SiPrisma />
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
-          <SiMongodb />
+          <FaDocker />
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
-          <TbBrandNextjs />
+          <SiJest />
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
-          <BiLogoTypescript />
+          <GrGraphQl />
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
-          <TbBrandVercel />
+          <SiPostgresql />
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
-          <SiNetlify />
+          <SiMongoose />
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
-          <FaGithub />
+          <SiVitest />
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
-          <VscVscodeInsiders />
+          <FaAngular />
+        </div>
+        <div className="border mx-1 p-3 rounded-2xl">
+          <RiVuejsLine />
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
           <FaFigma />
