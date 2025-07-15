@@ -20,6 +20,7 @@ const PeerSolve = () => {
         <div className="flex gap-2 flex-wrap justify-center lg:justify-start">
           <div className="badge badge-soft ">Tailwind</div>
           <div className="badge badge-soft ">React.js</div>
+          <div className="badge badge-soft ">Node.js</div>
           <div className="badge badge-soft ">Express</div>
           <div className="badge badge-soft ">MongoDB</div>
         </div>
