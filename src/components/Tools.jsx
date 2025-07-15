@@ -40,11 +40,11 @@ const Tools = () => {
         Tools <span className="text-primary">I Use</span>
       </h3>
       <Marquee
-        className=" text-3xl sm:text-4xl sm:opacity-70 "
+        className=" text-3xl sm:text-4xl sm:opacity-80 "
         gradient="true"
         gradientColor={"oklch(14% 0.005 285.823)"}
-        speed={5}
-        gradientWidth={250}
+        speed={1}
+        gradientWidth={80}
       >
         <div className="border mx-1 p-3 rounded-2xl">
           <FaHtml5 />
@@ -106,57 +106,15 @@ const Tools = () => {
         <div className="border mx-1 p-3 rounded-2xl">
           <VscVscodeInsiders />
         </div>
-        <div className="border mx-1 p-3 rounded-2xl">
-          <FaFigma />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
-          <FaWordpress />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
-          <SiWoo />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
-          <FaElementor />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
-          <SiNotion />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
-          <SiObsidian />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
-          <FaSlack />
-        </div>
       </Marquee>
       <Marquee
-        className=" text-3xl sm:text-4xl sm:opacity-70 mt-4"
+        className=" text-3xl sm:text-4xl sm:opacity-80 mt-4"
         gradient="true"
         direction="right"
         gradientColor={"oklch(14% 0.005 285.823)"}
-        speed={5}
-        gradientWidth={250}
+        speed={1}
+        gradientWidth={80}
       >
-        <div className="border mx-1 p-3 rounded-2xl">
-          <FaHtml5 />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
-          <FaCss3 />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
-          <FaBootstrap />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
-          <FaSass />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
-          <SiTailwindcss />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
-          <IoLogoJavascript />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
-          <FaReact />
-        </div>
         <div className="border mx-1 p-3 rounded-2xl">
           <SiReactrouter />
         </div>
