@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 const Education = () => {
   return (
-    <section id="education" className=" flex flex-col items-center">
+    <section id="education" className=" flex flex-col items-center bg-base-300">
       <h3 className="py-6 text-2xl font-light">
         <span className="text-primary">My</span> Education
       </h3>

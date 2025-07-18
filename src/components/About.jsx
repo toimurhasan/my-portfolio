@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="bg-base-300 pt-8 mt-10 lg:mt-0 pb-10  px-4 ">
+    <section className="bg-gradient-to-b from-base-300 to-base-200 pt-8 mt-10 lg:mt-0 pb-10  px-4 ">
       <div className="flex lg:gap-2 items-center justify-center flex-col lg:flex-row max-w-7xl mx-auto">
         <div id="about" className=" justify-center">
           <img

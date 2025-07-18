@@ -3,8 +3,8 @@ import { FaArrowRight, FaCircle } from "react-icons/fa";
 
 const Experience = () => {
   return (
-    <section id="experience" className="bg-base-300 pb-6">
-      <h3 className="text-center py-6 text-2xl font-light">
+    <section id="experience">
+      <h3 className="text-center py-6 text-2xl bg-gradient-to-b from-base-200 to-base-300 font-light">
         Experience <span className="text-primary">I Have</span>
       </h3>
       <div className="bg-base-300">

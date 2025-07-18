@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 const Contact = () => {
   return (
-    <section id="contact" className="pb-5 flex flex-col items-center">
+    <section id="contact" className="pb-5 flex flex-col items-center bg-base-300">
       <h3 className=" py-6 text-2xl font-light">
         Contact <span className="text-primary">Me</span>
       </h3>
