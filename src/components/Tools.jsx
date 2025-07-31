@@ -5,13 +5,16 @@ import {
   FaAngular,
   FaAws,
   FaBootstrap,
+  FaCpanel,
   FaCss3,
   FaDocker,
   FaFigma,
+  FaGitAlt,
   FaGithub,
   FaHtml5,
   FaLaravel,
   FaNodeJs,
+  FaNpm,
   FaPhp,
   FaPython,
   FaReact,
@@ -25,16 +28,20 @@ import { IoLogoJavascript } from "react-icons/io";
 import { RiNextjsFill, RiVuejsLine } from "react-icons/ri";
 import {
   SiAxios,
+  SiDaisyui,
   SiExpress,
   SiFirebase,
   SiJest,
+  SiJquery,
   SiJsonwebtokens,
   SiMongodb,
   SiMongoose,
   SiNetlify,
   SiNotion,
   SiObsidian,
+  SiPnpm,
   SiPostgresql,
+  SiPostman,
   SiPrisma,
   SiReactrouter,
   SiRedux,
@@ -73,6 +80,9 @@ const Tools = () => {
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
           <SiTailwindcss />
+        </div>
+        <div className="border mx-1 p-3 rounded-2xl">
+          <SiDaisyui />
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
           <IoLogoJavascript />
@@ -116,9 +126,6 @@ const Tools = () => {
         <div className="border mx-1 p-3 rounded-2xl">
           <FaGithub />
         </div>
-        <div className="border mx-1 p-3 rounded-2xl">
-          <VscVscodeInsiders />
-        </div>
       </Marquee>
       <Marquee
         className=" text-3xl sm:text-4xl opacity-90 sm:opacity-80 mt-4"
@@ -129,16 +136,31 @@ const Tools = () => {
         gradientWidth={80}
       >
         <div className="border mx-1 p-3 rounded-2xl">
+          <VscVscodeInsiders />
+        </div>
+        <div className="border mx-1 p-3 rounded-2xl">
+          <FaCpanel />
+        </div>
+        <div className="border mx-1 p-3 rounded-2xl">
+          <FaGitAlt />
+        </div>
+        <div className="border mx-1 p-3 rounded-2xl">
+          <FaNpm />
+        </div>
+        <div className="border mx-1 p-3 rounded-2xl">
+          <SiPnpm />
+        </div>
+        <div className="border mx-1 p-3 rounded-2xl">
+          <SiJquery />
+        </div>
+        <div className="border mx-1 p-3 rounded-2xl">
+          <SiPostman />
+        </div>
+        <div className="border mx-1 p-3 rounded-2xl">
           <FaPhp />
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
-          <FaLaravel />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
           <FaPython />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
-          <FaAws />
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
           <SiRedux />
@@ -147,28 +169,10 @@ const Tools = () => {
           <SiPrisma />
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
-          <FaDocker />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
-          <SiJest />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
           <GrGraphQl />
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
-          <SiPostgresql />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
           <SiMongoose />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
-          <SiVitest />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
-          <FaAngular />
-        </div>
-        <div className="border mx-1 p-3 rounded-2xl">
-          <RiVuejsLine />
         </div>
         <div className="border mx-1 p-3 rounded-2xl">
           <FaFigma />
