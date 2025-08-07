@@ -29,6 +29,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import { RiNextjsFill, RiVuejsLine } from "react-icons/ri";
 import {
   SiAxios,
+  SiCanva,
   SiDaisyui,
   SiExpress,
   SiFirebase,
@@ -285,6 +286,15 @@ const Tools = () => {
           data-tooltip-content="Elementor"
         >
           <FaElementor />
+        </a>
+        <a
+          href="https://www.canva.com/"
+          target="_blank"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          data-tooltip-id="my-tooltip"
+          data-tooltip-content="Canva"
+        >
+        <SiCanva/>
         </a>
       </Marquee>
 
