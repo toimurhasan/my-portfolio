@@ -3,12 +3,14 @@ import { BiLogoTypescript } from "react-icons/bi";
 import { DiGoogleCloudPlatform } from "react-icons/di";
 import {
   FaBootstrap,
+  FaCpanel,
   FaCss3,
   FaFigma,
   FaGithub,
   FaGitSquare,
   FaHtml5,
   FaNodeJs,
+  FaNpm,
   FaReact,
   FaSass,
 } from "react-icons/fa";
@@ -49,7 +51,7 @@ const Tools = () => {
         <a
           href="https://www.w3schools.com/html"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="HTML5"
         >
@@ -58,7 +60,7 @@ const Tools = () => {
         <a
           href="https://www.w3schools.com/css"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="CSS3"
         >
@@ -67,7 +69,7 @@ const Tools = () => {
         <a
           href="https://getbootstrap.com/docs/"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Bootstrap"
         >
@@ -76,7 +78,7 @@ const Tools = () => {
         <a
           href="https://sass-lang.com/documentation/"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Sass"
         >
@@ -85,7 +87,7 @@ const Tools = () => {
         <a
           href="https://tailwindcss.com/docs"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Tailwind CSS"
         >
@@ -94,7 +96,7 @@ const Tools = () => {
         <a
           href="https://daisyui.com/components/"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="DaisyUI"
         >
@@ -103,7 +105,7 @@ const Tools = () => {
         <a
           href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="JavaScript"
         >
@@ -112,7 +114,7 @@ const Tools = () => {
         <a
           href="https://reactjs.org/docs/getting-started.html"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="React"
         >
@@ -121,7 +123,7 @@ const Tools = () => {
         <a
           href="https://reactrouter.com/en/main"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="React Router"
         >
@@ -130,7 +132,7 @@ const Tools = () => {
         <a
           href="https://axios-http.com/docs/intro"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Axios"
         >
@@ -139,7 +141,7 @@ const Tools = () => {
         <a
           href="https://firebase.google.com/docs"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Firebase"
         >
@@ -148,7 +150,7 @@ const Tools = () => {
         <a
           href="https://nodejs.org/en/docs"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Node.js"
         >
@@ -157,7 +159,7 @@ const Tools = () => {
         <a
           href="https://expressjs.com/"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Express.js"
         >
@@ -166,7 +168,7 @@ const Tools = () => {
         <a
           href="https://jwt.io/introduction"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="JWT"
         >
@@ -175,7 +177,7 @@ const Tools = () => {
         <a
           href="https://www.mongodb.com/docs/"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="MongoDB"
         >
@@ -184,7 +186,7 @@ const Tools = () => {
         <a
           href="https://mui.com/material-ui/getting-started/"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Material UI"
         >
@@ -193,17 +195,16 @@ const Tools = () => {
         <a
           href="https://www.typescriptlang.org/docs/"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="TypeScript"
         >
           <BiLogoTypescript className="group-hover:text-primary transition" />
         </a>
-
         <a
           href="https://nextjs.org/docs"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Next.js"
         >
@@ -212,7 +213,7 @@ const Tools = () => {
         <a
           href="https://www.postgresql.org/docs/"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="PostgreSQL"
         >
@@ -221,7 +222,7 @@ const Tools = () => {
         <a
           href="https://sequelize.org/docs/v6/"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Sequelize"
         >
@@ -230,7 +231,7 @@ const Tools = () => {
         <a
           href="https://jestjs.io/docs/getting-started"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Jest"
         >
@@ -239,7 +240,7 @@ const Tools = () => {
         <a
           href="https://cloud.google.com/docs"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Google Cloud Platform"
         >
@@ -248,7 +249,7 @@ const Tools = () => {
         <a
           href="https://git-scm.com/doc"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Git"
         >
@@ -257,7 +258,7 @@ const Tools = () => {
         <a
           href="https://docs.github.com/"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="GitHub"
         >
@@ -266,7 +267,7 @@ const Tools = () => {
         <a
           href="https://code.visualstudio.com/docs"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="VS Code"
         >
@@ -275,7 +276,7 @@ const Tools = () => {
         <a
           href="https://help.figma.com/hc/en-us"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Figma"
         >

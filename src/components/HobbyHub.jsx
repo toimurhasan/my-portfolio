@@ -18,11 +18,10 @@ const HobbyHub = () => {
           beautiful and responsive interface.
         </p>
         <div className="flex gap-2 flex-wrap justify-center lg:justify-end">
-          <div className="badge badge-soft ">DaisyUI</div>
+          <div className="badge badge-soft ">MongoDB</div>
+          <div className="badge badge-soft ">Express.js</div>
           <div className="badge badge-soft ">React.js</div>
           <div className="badge badge-soft ">Node.js</div>
-          <div className="badge badge-soft ">Firebase</div>
-          <div className="badge badge-soft ">MongoDB</div>
         </div>
         <div className="mt-4  flex gap-2 justify-center lg:justify-start lg:flex-row-reverse">
           <Link to={"https://hobbyhub-tamim.web.app/"} target="_blank" className="btn btn-primary">
