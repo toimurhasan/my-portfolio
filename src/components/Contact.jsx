@@ -15,6 +15,7 @@ const Contact = () => {
         wa.me/+8801720911179
       </Link>
       <p>toimurhasan50@gmail.com</p>
+      <p>phone number: +8801720911179</p>
     </section>
   );
 };

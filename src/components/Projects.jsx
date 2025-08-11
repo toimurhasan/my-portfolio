@@ -1,5 +1,6 @@
 import PeerSolve from "./PeerSolve";
 import HobbyHub from "./HobbyHub";
+import { SBT } from "./SBT";
 
 const Projects = () => {
   return (
@@ -11,6 +12,7 @@ const Projects = () => {
         Projects <span className="text-primary">I Made</span>
       </h3>
       <div className="space-y-8">
+        <SBT></SBT>
         <PeerSolve></PeerSolve>
         <HobbyHub></HobbyHub>
       </div>

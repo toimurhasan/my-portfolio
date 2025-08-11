@@ -1,58 +1,33 @@
-import React from "react";
 import Marquee from "react-fast-marquee";
 import { BiLogoTypescript } from "react-icons/bi";
+import { DiGoogleCloudPlatform } from "react-icons/di";
 import {
-  FaAngular,
-  FaAws,
   FaBootstrap,
-  FaCpanel,
   FaCss3,
-  FaDocker,
   FaFigma,
-  FaGitAlt,
   FaGithub,
   FaGitSquare,
   FaHtml5,
-  FaLaravel,
   FaNodeJs,
-  FaNpm,
-  FaPhp,
-  FaPython,
   FaReact,
   FaSass,
-  FaSlack,
-  FaWordpress,
 } from "react-icons/fa";
-import { FaElementor } from "react-icons/fa6";
-import { GrGraphQl } from "react-icons/gr";
 import { IoLogoJavascript } from "react-icons/io";
-import { RiNextjsFill, RiVuejsLine } from "react-icons/ri";
 import {
   SiAxios,
-  SiCanva,
   SiDaisyui,
   SiExpress,
   SiFirebase,
   SiJest,
-  SiJquery,
   SiJsonwebtokens,
   SiMongodb,
-  SiMongoose,
-  SiNetlify,
-  SiNotion,
-  SiObsidian,
-  SiPnpm,
+  SiMui,
   SiPostgresql,
-  SiPostman,
-  SiPrisma,
   SiReactrouter,
-  SiRedux,
+  SiSequelize,
   SiTailwindcss,
-  SiTypescript,
-  SiVitest,
-  SiWoo,
 } from "react-icons/si";
-import { TbBrandNextjs, TbBrandVercel } from "react-icons/tb";
+import { TbBrandNextjs } from "react-icons/tb";
 import { VscVscodeInsiders } from "react-icons/vsc";
 import { Tooltip } from "react-tooltip";
 
@@ -74,227 +49,237 @@ const Tools = () => {
         <a
           href="https://www.w3schools.com/html"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="HTML5"
         >
-          <FaHtml5 />
+          <FaHtml5 className="group-hover:text-primary transition" />
         </a>
         <a
           href="https://www.w3schools.com/css"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="CSS3"
         >
-          <FaCss3 />
+          <FaCss3 className="group-hover:text-primary transition" />
         </a>
         <a
           href="https://getbootstrap.com/docs/"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Bootstrap"
         >
-          <FaBootstrap />
+          <FaBootstrap className="group-hover:text-primary transition" />
         </a>
         <a
           href="https://sass-lang.com/documentation/"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Sass"
         >
-          <FaSass />
+          <FaSass className="group-hover:text-primary transition" />
         </a>
         <a
           href="https://tailwindcss.com/docs"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Tailwind CSS"
         >
-          <SiTailwindcss />
+          <SiTailwindcss className="group-hover:text-primary transition" />
         </a>
         <a
           href="https://daisyui.com/components/"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="DaisyUI"
         >
-          <SiDaisyui />
+          <SiDaisyui className="group-hover:text-primary transition" />
         </a>
         <a
           href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="JavaScript"
         >
-          <IoLogoJavascript />
+          <IoLogoJavascript className="group-hover:text-primary transition" />
         </a>
         <a
           href="https://reactjs.org/docs/getting-started.html"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="React"
         >
-          <FaReact />
+          <FaReact className="group-hover:text-primary transition" />
         </a>
         <a
           href="https://reactrouter.com/en/main"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="React Router"
         >
-          <SiReactrouter />
+          <SiReactrouter className="group-hover:text-primary transition" />
         </a>
         <a
           href="https://axios-http.com/docs/intro"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Axios"
         >
-          <SiAxios />
+          <SiAxios className="group-hover:text-primary transition" />
         </a>
         <a
           href="https://firebase.google.com/docs"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Firebase"
         >
-          <SiFirebase />
+          <SiFirebase className="group-hover:text-primary transition" />
         </a>
         <a
           href="https://nodejs.org/en/docs"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Node.js"
         >
-          <FaNodeJs />
+          <FaNodeJs className="group-hover:text-primary transition" />
         </a>
         <a
           href="https://expressjs.com/"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Express.js"
         >
-          <SiExpress />
+          <SiExpress className="group-hover:text-primary transition" />
         </a>
         <a
           href="https://jwt.io/introduction"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="JWT"
         >
-          <SiJsonwebtokens />
+          <SiJsonwebtokens className="group-hover:text-primary transition" />
         </a>
         <a
           href="https://www.mongodb.com/docs/"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="MongoDB"
         >
-          <SiMongodb />
+          <SiMongodb className="group-hover:text-primary transition" />
+        </a>
+        <a
+          href="https://mui.com/material-ui/getting-started/"
+          target="_blank"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          data-tooltip-id="my-tooltip"
+          data-tooltip-content="Material UI"
+        >
+          <SiMui className="group-hover:text-primary transition" />
+        </a>
+        <a
+          href="https://www.typescriptlang.org/docs/"
+          target="_blank"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          data-tooltip-id="my-tooltip"
+          data-tooltip-content="TypeScript"
+        >
+          <BiLogoTypescript className="group-hover:text-primary transition" />
+        </a>
+
+        <a
+          href="https://nextjs.org/docs"
+          target="_blank"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          data-tooltip-id="my-tooltip"
+          data-tooltip-content="Next.js"
+        >
+          <TbBrandNextjs className="group-hover:text-primary transition" />
+        </a>
+        <a
+          href="https://www.postgresql.org/docs/"
+          target="_blank"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          data-tooltip-id="my-tooltip"
+          data-tooltip-content="PostgreSQL"
+        >
+          <SiPostgresql className="group-hover:text-primary transition" />
+        </a>
+        <a
+          href="https://sequelize.org/docs/v6/"
+          target="_blank"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          data-tooltip-id="my-tooltip"
+          data-tooltip-content="Sequelize"
+        >
+          <SiSequelize className="group-hover:text-primary transition" />
+        </a>
+        <a
+          href="https://jestjs.io/docs/getting-started"
+          target="_blank"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          data-tooltip-id="my-tooltip"
+          data-tooltip-content="Jest"
+        >
+          <SiJest className="group-hover:text-primary transition" />
+        </a>
+        <a
+          href="https://cloud.google.com/docs"
+          target="_blank"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
+          data-tooltip-id="my-tooltip"
+          data-tooltip-content="Google Cloud Platform"
+        >
+          <DiGoogleCloudPlatform className="group-hover:text-primary transition" />
         </a>
         <a
           href="https://git-scm.com/doc"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Git"
         >
-          <FaGitSquare />
+          <FaGitSquare className="group-hover:text-primary transition" />
         </a>
         <a
           href="https://docs.github.com/"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="GitHub"
         >
-          <FaGithub />
+          <FaGithub className="group-hover:text-primary transition" />
         </a>
         <a
           href="https://code.visualstudio.com/docs"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="VS Code"
         >
-          <VscVscodeInsiders />
-        </a>
-        <a
-          href="https://docs.cpanel.net/"
-          target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
-          data-tooltip-id="my-tooltip"
-          data-tooltip-content="cPanel"
-        >
-          <FaCpanel />
-        </a>
-        <a
-          href="https://docs.npmjs.com/"
-          target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
-          data-tooltip-id="my-tooltip"
-          data-tooltip-content="NPM"
-        >
-          <FaNpm />
+          <VscVscodeInsiders className="group-hover:text-primary transition" />
         </a>
         <a
           href="https://help.figma.com/hc/en-us"
           target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-transparent"
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Figma"
         >
-          <FaFigma />
-        </a>
-        <a
-          href="https://wordpress.org/support/"
-          target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
-          data-tooltip-id="my-tooltip"
-          data-tooltip-content="WordPress"
-        >
-          <FaWordpress />
-        </a>
-        <a
-          href="https://woocommerce.com/documentation/"
-          target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
-          data-tooltip-id="my-tooltip"
-          data-tooltip-content="WooCommerce"
-        >
-          <SiWoo />
-        </a>
-        <a
-          href="https://elementor.com/help/"
-          target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
-          data-tooltip-id="my-tooltip"
-          data-tooltip-content="Elementor"
-        >
-          <FaElementor />
-        </a>
-        <a
-          href="https://www.canva.com/"
-          target="_blank"
-          className="border block mx-1 p-3 rounded-2xl cursor-pointer"
-          data-tooltip-id="my-tooltip"
-          data-tooltip-content="Canva"
-        >
-        <SiCanva/>
+          <FaFigma className="group-hover:text-primary transition" />
         </a>
       </Marquee>
 
