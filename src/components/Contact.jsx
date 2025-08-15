@@ -12,10 +12,10 @@ const Contact = () => {
         target="_blank"
         className="underline text-blue-500 hover:text-blue-600"
       >
-        wa.me/+8801720911179
+        +8801720911179
       </Link>
-      <p>toimurhasan50@gmail.com</p>
-      <p>phone number: +8801720911179</p>
+      <p>2imur.hasan@gmail.com</p>
+      {/* <p>phone number: +8801720911179</p> */}
     </section>
   );
 };

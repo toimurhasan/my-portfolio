@@ -28,6 +28,7 @@ import {
   SiReactrouter,
   SiSequelize,
   SiTailwindcss,
+  SiVitest,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { VscVscodeInsiders } from "react-icons/vsc";
@@ -147,7 +148,7 @@ const Tools = () => {
         >
           <SiFirebase className="group-hover:text-primary transition" />
         </a>
-        <a
+        {/* <a
           href="https://nodejs.org/en/docs"
           target="_blank"
           className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
@@ -155,8 +156,8 @@ const Tools = () => {
           data-tooltip-content="Node.js"
         >
           <FaNodeJs className="group-hover:text-primary transition" />
-        </a>
-        <a
+        </a> */}
+        {/* <a
           href="https://expressjs.com/"
           target="_blank"
           className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
@@ -164,8 +165,8 @@ const Tools = () => {
           data-tooltip-content="Express.js"
         >
           <SiExpress className="group-hover:text-primary transition" />
-        </a>
-        <a
+        </a> */}
+        {/* <a
           href="https://jwt.io/introduction"
           target="_blank"
           className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
@@ -173,8 +174,8 @@ const Tools = () => {
           data-tooltip-content="JWT"
         >
           <SiJsonwebtokens className="group-hover:text-primary transition" />
-        </a>
-        <a
+        </a> */}
+        {/* <a
           href="https://www.mongodb.com/docs/"
           target="_blank"
           className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
@@ -182,7 +183,7 @@ const Tools = () => {
           data-tooltip-content="MongoDB"
         >
           <SiMongodb className="group-hover:text-primary transition" />
-        </a>
+        </a> */}
         <a
           href="https://mui.com/material-ui/getting-started/"
           target="_blank"
@@ -210,7 +211,7 @@ const Tools = () => {
         >
           <TbBrandNextjs className="group-hover:text-primary transition" />
         </a>
-        <a
+        {/* <a
           href="https://www.postgresql.org/docs/"
           target="_blank"
           className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
@@ -218,8 +219,8 @@ const Tools = () => {
           data-tooltip-content="PostgreSQL"
         >
           <SiPostgresql className="group-hover:text-primary transition" />
-        </a>
-        <a
+        </a> */}
+        {/* <a
           href="https://sequelize.org/docs/v6/"
           target="_blank"
           className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
@@ -227,7 +228,7 @@ const Tools = () => {
           data-tooltip-content="Sequelize"
         >
           <SiSequelize className="group-hover:text-primary transition" />
-        </a>
+        </a> */}
         <a
           href="https://jestjs.io/docs/getting-started"
           target="_blank"
@@ -237,7 +238,18 @@ const Tools = () => {
         >
           <SiJest className="group-hover:text-primary transition" />
         </a>
+        {/* add vitest here */}
         <a
+          href="https://vitest.dev/guide/"
+          target="_blank"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
+          data-tooltip-id="my-tooltip"
+          data-tooltip-content="Vitest"
+        >
+          <SiVitest className="group-hover:text-primary transition" />
+        </a>
+
+        {/* <a
           href="https://cloud.google.com/docs"
           target="_blank"
           className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
@@ -245,7 +257,7 @@ const Tools = () => {
           data-tooltip-content="Google Cloud Platform"
         >
           <DiGoogleCloudPlatform className="group-hover:text-primary transition" />
-        </a>
+        </a> */}
         <a
           href="https://git-scm.com/doc"
           target="_blank"
