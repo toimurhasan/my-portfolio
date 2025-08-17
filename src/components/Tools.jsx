@@ -23,6 +23,7 @@ import {
   SiJest,
   SiJsonwebtokens,
   SiMongodb,
+  SiMongoose,
   SiMui,
   SiPostgresql,
   SiReactrouter,
@@ -148,7 +149,7 @@ const Tools = () => {
         >
           <SiFirebase className="group-hover:text-primary transition" />
         </a>
-        {/* <a
+        <a
           href="https://nodejs.org/en/docs"
           target="_blank"
           className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
@@ -156,8 +157,8 @@ const Tools = () => {
           data-tooltip-content="Node.js"
         >
           <FaNodeJs className="group-hover:text-primary transition" />
-        </a> */}
-        {/* <a
+        </a>
+        <a
           href="https://expressjs.com/"
           target="_blank"
           className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
@@ -165,8 +166,8 @@ const Tools = () => {
           data-tooltip-content="Express.js"
         >
           <SiExpress className="group-hover:text-primary transition" />
-        </a> */}
-        {/* <a
+        </a>
+        <a
           href="https://jwt.io/introduction"
           target="_blank"
           className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
@@ -174,8 +175,8 @@ const Tools = () => {
           data-tooltip-content="JWT"
         >
           <SiJsonwebtokens className="group-hover:text-primary transition" />
-        </a> */}
-        {/* <a
+        </a>
+        <a
           href="https://www.mongodb.com/docs/"
           target="_blank"
           className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
@@ -183,7 +184,16 @@ const Tools = () => {
           data-tooltip-content="MongoDB"
         >
           <SiMongodb className="group-hover:text-primary transition" />
-        </a> */}
+        </a>
+        <a
+          href="https://mongoosejs.com/docs/"
+          target="_blank"
+          className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
+          data-tooltip-id="my-tooltip"
+          data-tooltip-content="Mongoose"
+        >
+          <SiMongoose className="group-hover:text-primary transition" />
+        </a>
         <a
           href="https://mui.com/material-ui/getting-started/"
           target="_blank"
