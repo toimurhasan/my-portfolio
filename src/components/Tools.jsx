@@ -6,6 +6,7 @@ import {
   FaCpanel,
   FaCss3,
   FaFigma,
+  FaGitAlt,
   FaGithub,
   FaGitSquare,
   FaHtml5,
@@ -77,7 +78,7 @@ const Tools = () => {
         >
           <FaBootstrap className="group-hover:text-primary transition" />
         </a>
-        <a
+        {/* <a
           href="https://sass-lang.com/documentation/"
           target="_blank"
           className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
@@ -85,7 +86,7 @@ const Tools = () => {
           data-tooltip-content="Sass"
         >
           <FaSass className="group-hover:text-primary transition" />
-        </a>
+        </a> */}
         <a
           href="https://tailwindcss.com/docs"
           target="_blank"
@@ -185,7 +186,7 @@ const Tools = () => {
         >
           <SiMongodb className="group-hover:text-primary transition" />
         </a>
-        <a
+        {/* <a
           href="https://mongoosejs.com/docs/"
           target="_blank"
           className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
@@ -193,8 +194,8 @@ const Tools = () => {
           data-tooltip-content="Mongoose"
         >
           <SiMongoose className="group-hover:text-primary transition" />
-        </a>
-        <a
+        </a> */}
+        {/* <a
           href="https://mui.com/material-ui/getting-started/"
           target="_blank"
           className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
@@ -202,7 +203,7 @@ const Tools = () => {
           data-tooltip-content="Material UI"
         >
           <SiMui className="group-hover:text-primary transition" />
-        </a>
+        </a> */}
         <a
           href="https://www.typescriptlang.org/docs/"
           target="_blank"
@@ -239,7 +240,7 @@ const Tools = () => {
         >
           <SiSequelize className="group-hover:text-primary transition" />
         </a> */}
-        <a
+        {/* <a
           href="https://jestjs.io/docs/getting-started"
           target="_blank"
           className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
@@ -247,9 +248,9 @@ const Tools = () => {
           data-tooltip-content="Jest"
         >
           <SiJest className="group-hover:text-primary transition" />
-        </a>
+        </a> */}
         {/* add vitest here */}
-        <a
+        {/* <a
           href="https://vitest.dev/guide/"
           target="_blank"
           className="border block mx-1 p-3 rounded-2xl cursor-pointer group hover:border-gray-500 transition"
@@ -257,7 +258,7 @@ const Tools = () => {
           data-tooltip-content="Vitest"
         >
           <SiVitest className="group-hover:text-primary transition" />
-        </a>
+        </a> */}
 
         {/* <a
           href="https://cloud.google.com/docs"
@@ -275,7 +276,7 @@ const Tools = () => {
           data-tooltip-id="my-tooltip"
           data-tooltip-content="Git"
         >
-          <FaGitSquare className="group-hover:text-primary transition" />
+          <FaGitAlt className="group-hover:text-primary transition" />
         </a>
         <a
           href="https://docs.github.com/"
