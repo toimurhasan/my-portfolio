@@ -5,7 +5,7 @@ export const SBT = () => {
   return (
     <div className="flex flex-col items-center lg:flex-row  gap-8">
       <img
-        src="/sbt.png"
+        src="https://i.ibb.co.com/FLMGvqwQ/sbt.png"
         alt="Project Two"
         className="md:max-w-lg lg:max-w-md rounded-lg shadow-2xl object-cover"
       />

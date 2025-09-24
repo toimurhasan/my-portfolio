@@ -8,7 +8,10 @@ const Hero = () => {
     <section className="hero bg-gradient-to-b from-base-200 to-base-300 sm:min-h-[calc(100vh-65px)]">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="flex-1 flex justify-center">
-          <img src="/me.jpeg" className=" sm:max-w-md rounded-lg shadow-2xl" />
+          <img
+            src="https://i.ibb.co.com/8DW3FTSm/me.jpg"
+            className=" sm:max-w-md rounded-lg shadow-2xl"
+          />
         </div>
         <div className="flex-1 sm:text-center lg:text-start">
           <h1 className="text-5xl font-light">Toimur Hasan</h1>

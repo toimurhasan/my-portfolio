@@ -48,7 +48,7 @@ const Navbar = () => {
                 Projects
               </span>
             </li>
-            {/* <li>
+            <li>
               <span
                 onClick={() => {
                   const element = document.getElementById("experience");
@@ -60,7 +60,7 @@ const Navbar = () => {
               >
                 Experience
               </span>
-            </li> */}
+            </li>
             <li>
               <span
                 onClick={() => {

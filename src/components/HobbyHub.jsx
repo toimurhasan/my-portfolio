@@ -5,7 +5,7 @@ const HobbyHub = () => {
   return (
     <div className="flex flex-col items-center lg:flex-row  gap-8">
       <img
-        src="/hobbyhub.png"
+        src="https://i.ibb.co.com/XrpqqWzj/hobbyhub.png"
         alt="Project Two"
         className="md:max-w-lg lg:max-w-md rounded-lg shadow-2xl object-cover"
       />
