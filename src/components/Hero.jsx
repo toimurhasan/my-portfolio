@@ -45,7 +45,7 @@ const Hero = () => {
           </div>
           <Link
             to={
-              "https://drive.google.com/file/d/1If6klhtgo2I5X_j9wMD5QDA0giGIQSnx/view?usp=drive_link"
+              "https://drive.google.com/file/d/14BRYlP7lN7Bj2DpkWlj8lIg5astLOIEk/view?usp=drive_link"
             }
             target="_blank"
             className="btn btn-primary"
