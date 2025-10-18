@@ -15,10 +15,10 @@ const Hero = () => {
         </div>
         <div className="flex-1 sm:text-center lg:text-start">
           <h1 className="text-5xl font-light">Toimur Hasan</h1>
-          <h4 className="py-1 italic">MERN Stack Software Developer</h4>
+          <h4 className="py-1 italic">Frontend Developer (MERN Stack)</h4>
           <p className="py-3">
-            I make MongoDB, Express, React, and Node play nicely together to build apps that are
-            fast, scalable, and highly reliable.
+            I bring React to life while keeping MongoDB, Express, and Node in harmony behind the
+            scenes.
           </p>
           <div className="py-3 flex gap-2 sm:justify-center lg:justify-start">
             <Link
