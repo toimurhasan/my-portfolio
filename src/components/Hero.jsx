@@ -8,17 +8,14 @@ const Hero = () => {
     <section className="hero bg-gradient-to-b from-base-200 to-base-300 sm:min-h-[calc(100vh-65px)]">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="flex-1 flex justify-center">
-          <img
-            src="https://i.ibb.co.com/8DW3FTSm/me.jpg"
-            className=" sm:max-w-md rounded-lg shadow-2xl"
-          />
+          <img src="me.jpeg" className=" sm:max-w-md rounded-lg shadow-2xl" />
         </div>
         <div className="flex-1 sm:text-center lg:text-start">
           <h1 className="text-5xl font-light">Toimur Hasan</h1>
-          <h4 className="py-1 italic">Frontend Developer (MERN Stack)</h4>
+          <h4 className="py-1 italic">MERN Stack Software Developer</h4>
           <p className="py-3">
-            I bring React to life while keeping MongoDB, Express, and Node in harmony behind the
-            scenes.
+            I make MongoDB, Express, React, and Node play nicely together to build apps that are
+            fast, scalable, and highly reliable.
           </p>
           <div className="py-3 flex gap-2 sm:justify-center lg:justify-start">
             <Link

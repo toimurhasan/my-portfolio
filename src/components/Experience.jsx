@@ -18,7 +18,7 @@ const Experience = () => {
                 <time className="font-mono italic">April, 2025</time>
                 <div className="text-lg font-black">Paikari Organic Ghor</div>
                 <img
-                  src="https://i.ibb.co.com/p6rZzwPf/paikariorganicghor.png"
+                  src="paikariorganicghor.png"
                   alt="Paikari Organic Ghor"
                   className="rounded-2xl"
                 />
@@ -43,7 +43,7 @@ const Experience = () => {
                 <time className="font-mono italic">November, 2024</time>
                 <div className="text-lg font-black">Rashidozzoha Govt. Women's College</div>
                 <img
-                  src="https://i.ibb.co.com/qM3bwB0N/rgwc.png"
+                  src="rgwc.png"
                   alt="Rashidozzoha Govt. Women's College"
                   className="rounded-2xl"
                 />
@@ -81,11 +81,7 @@ const Experience = () => {
               <div className="timeline-start mb-10 md:text-end space-y-2">
                 <time className="font-mono italic">July, 2024</time>
                 <div className="text-lg font-black">ShobShotej</div>
-                <img
-                  src="https://i.ibb.co.com/nSPGTtX/shobshotej.png"
-                  alt="ShobShotej"
-                  className="rounded-2xl"
-                />
+                <img src="shobshotej.png" alt="ShobShotej" className="rounded-2xl" />
                 <p className="md:pl-10">
                   Learned how to force WordPress Plugins to do what I wanted — even when the feature
                   didn’t exist. My first ever introduction to JavaScript.
@@ -128,7 +124,7 @@ const Experience = () => {
                   >
                     MindSkills
                   </a>{" "}
-                  as an Instructor. Not my natural strength, but it was incredibly fun.
+                  as an Instructor. Teaching beginner students was incredibly fun.
                 </p>
               </div>
             </li>

@@ -5,7 +5,7 @@ const PeerSolve = () => {
   return (
     <div className="flex flex-col items-center lg:flex-row-reverse  gap-8">
       <img
-        src="https://i.ibb.co.com/0RvL557x/peersolve.png"
+        src="peersolve.png"
         alt="Project One"
         className="md:max-w-lg lg:max-w-md rounded-lg shadow-2xl object-cover"
       />
