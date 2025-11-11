@@ -91,7 +91,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <a
-            href="https://drive.google.com/file/d/1eLhyqGc-hVpUwhOjn_ida4MbL5oIgpRx/view?usp=sharing"
+            href="https://drive.google.com/file/d/14BRYlP7lN7Bj2DpkWlj8lIg5astLOIEk/view?usp=sharing"
             target="_blank"
             className="btn"
           >
